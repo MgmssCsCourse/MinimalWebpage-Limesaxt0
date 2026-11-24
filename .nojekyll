@@ -1,1 +1,239 @@
 
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LOST – Der Episodenguide</title>
+
+    <style>
+        body {
+            background-color: #101820;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #182b35;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 50px;
+            letter-spacing: 8px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #b7c8ce;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #263c46;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e0a84f;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        h2 {
+            color: #e0a84f;
+            border-bottom: 2px solid #e0a84f;
+            padding-bottom: 10px;
+        }
+
+        .episode {
+            background-color: #1c303a;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 6px;
+        }
+
+        .episode h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .episode p {
+            color: #bdc9ce;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #182b35;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #9aabb2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TITEL DER WEBSEITE -->
+    <header>
+        <h1>LOST</h1>
+
+        <!-- UNTERTITEL / MOTTO -->
+        <p>Der ultimative Episodenguide zur geheimnisvollsten Insel der Fernsehgeschichte</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#serie">Die Serie</a>
+        <a href="#staffel1">Staffel 1</a>
+        <a href="#staffel2">Staffel 2</a>
+        <a href="#staffel3">Staffel 3</a>
+        <a href="#staffel4">Staffel 4</a>
+        <a href="#staffel5">Staffel 5</a>
+        <a href="#staffel6">Staffel 6</a>
+    </nav>
+
+    <main>
+
+        <!-- INFORMATIONEN ZUR SERIE -->
+        <section id="serie">
+            <h2>Über LOST</h2>
+
+            <p>
+                LOST ist eine amerikanische Mystery- und Dramaserie,
+                die von 2004 bis 2010 ausgestrahlt wurde.
+
+                Nach dem Absturz von Flug Oceanic 815 stranden
+                die Überlebenden auf einer geheimnisvollen Insel.
+
+                Doch schon bald wird klar, dass auf dieser Insel
+                nichts so ist, wie es zunächst scheint.
+            </p>
+        </section>
+
+
+        <!-- STAFFEL 1 -->
+        <section id="staffel1">
+            <h2>Staffel 1 (2004–2005)</h2>
+
+            <div class="episode">
+                <h3>Episode 1 – Gestrandet (Pilot, Teil 1)</h3>
+                <p>
+                    Nach dem Absturz von Oceanic Flug 815 kämpfen
+                    die Überlebenden um ihr Leben.
+                </p>
+            </div>
+
+            <div class="episode">
+                <h3>Episode 2 – Gestrandet (Pilot, Teil 2)</h3>
+                <p>
+                    Die Überlebenden versuchen, Kontakt zur Außenwelt
+                    aufzunehmen. Doch die Insel birgt Gefahren.
+                </p>
+            </div>
+
+            <div class="episode">
+                <h3>Episode 3 – Tabula Rasa</h3>
+                <p>
+                    Kate gerät zunehmend unter Druck, als ihre
+                    Vergangenheit ans Licht kommt.
+                </p>
+            </div>
+
+            <div class="episode">
+                <h3>Episode 4 – Walkabout</h3>
+                <p>
+                    Locke entdeckt auf der Insel Fähigkeiten,
+                    die er vor dem Absturz nicht besaß.
+                </p>
+            </div>
+
+            <p><em>Weitere Episoden folgen ...</em></p>
+        </section>
+
+
+        <!-- STAFFEL 2 -->
+        <section id="staffel2">
+            <h2>Staffel 2 (2005–2006)</h2>
+
+            <div class="episode">
+                <h3>Episode 1 – Glaube und Wissenschaft</h3>
+                <p>
+                    Die Überlebenden entdecken, was sich in der
+                    geheimnisvollen Luke befindet.
+                </p>
+            </div>
+
+            <p><em>Weitere Episoden folgen ...</em></p>
+        </section>
+
+
+        <!-- STAFFEL 3 -->
+        <section id="staffel3">
+            <h2>Staffel 3 (2006–2007)</h2>
+            <p>
+                Die Überlebenden erfahren mehr über die Anderen
+                und deren geheimnisvolle Gemeinschaft.
+            </p>
+        </section>
+
+
+        <!-- STAFFEL 4 -->
+        <section id="staffel4">
+            <h2>Staffel 4 (2008)</h2>
+            <p>
+                Ein Frachter erreicht die Insel und verändert
+                das Leben der Überlebenden für immer.
+            </p>
+        </section>
+
+
+        <!-- STAFFEL 5 -->
+        <section id="staffel5">
+            <h2>Staffel 5 (2009)</h2>
+            <p>
+                Zeitreisen und Zeitsprünge stellen die
+                Überlebenden vor neue Herausforderungen.
+            </p>
+        </section>
+
+
+        <!-- STAFFEL 6 -->
+        <section id="staffel6">
+            <h2>Staffel 6 (2010)</h2>
+            <p>
+                Die Geheimnisse der Insel nähern sich ihrer
+                endgültigen Auflösung.
+            </p>
+        </section>
+
+    </main>
+
+
+    <!-- FUSSZEILE -->
+    <footer>
+        <p>LOST – Der Episodenguide</p>
+        <p>Eine Fanseite zur Serie LOST (2004–2010)</p>
+    </footer>
+
+</body>
+</html>
+
